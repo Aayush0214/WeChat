@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- SignIn and SignUp Colors -->
+    <color name="background1">#25d366</color>
+    <color name="low_white_bg">#303030</color>
+    <color name="card_background">#303030</color>
+    <color name="text_color">#FFFFFFFF</color>
+    <color name="edit_text_bg">#FFFFFFFF</color>
+    <color name="user_bg">#465EFC</color>
+
+
+
+
+</resources>

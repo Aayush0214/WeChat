@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WeChat</string>
+
+    <!-- Strings for Sign-In activity -->
+    <string name="Greeting">Welcome Back!</string>
+    <string name="Suggestion">Please Sign-In to continue</string>
+    <string name="editTextHint1">Email address</string>
+    <string name="editTextHint2">Password</string>
+    <string name="buttonText">Sign In</string>
+
+    <!-- Strings for Sign-Up activity -->
+    <string name="createAccount">Create new account!</string>
+    <string name="userName">Name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="sign_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="select_user">Select User</string>
+    <string name="type_a_message_hint">Type a message</string>
+    <string name="chat">Chats</string>
+    <string name="online_text">Online</string>
+</resources>

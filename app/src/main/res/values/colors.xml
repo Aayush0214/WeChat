@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- SignIn and SignUp Colors -->
+    <color name="background1">#465EFC</color>
+    <color name="low_white_bg">#F1EDF9</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_color">#FF000000</color>
+    <color name="edit_text_bg">#969498</color>
+    <color name="user_bg">#465EFC</color>
+
+    <!-- MainActivity Colors -->
+    <color name="background2">#878788</color>
+    <color name="profile_bg">#EDE9EF</color>
+    <color name="text_color2">#FFFFFF</color>
+    <color name="buttons_bg_color">#DDD8DD</color>
+</resources>
