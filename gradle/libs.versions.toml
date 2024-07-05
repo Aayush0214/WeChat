@@ -1,32 +1,26 @@
 [versions]
-agp = "8.4.2"
+agp = "8.5.0"
 converterGson = "2.7.2"
-converterScaler = "2"
-firebaseBom = "33.0.0"
-gson = "2.11.0"
+firebaseBom = "33.1.1"
 junit = "4.13.2"
-junitVersion = "1.1.5"
-espressoCore = "3.5.1"
-appcompat = "1.6.1"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.0"
 constraintlayout = "2.1.4"
 multidex = "2.0.1"
 okhttp = "3.14.9"
-retrofit = "2.9.0"
 retrofitVersion = "2.11.0"
 roundedimageview = "2.3.0"
 sdpAndroidVersion = "1.0.6"
 sspAndroid = "1.0.6"
-googleGmsGoogleServices = "4.4.1"
 firebaseMessaging = "24.0.0"
 firebaseFirestore = "25.0.0"
 
 [libraries]
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
-converter-scaler = { module = "com.squareup.retrofit2:converter-scaler", version.ref = "converterScaler" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
-gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 intuit-sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroidVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
@@ -37,7 +31,6 @@ activity = { group = "androidx.activity", name = "activity", version.ref = "acti
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 multidex = { module = "androidx.multidex:multidex", version.ref = "multidex" }
 okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 retrofit-v2110 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofitVersion" }
 roundedimageview = { module = "com.makeramen:roundedimageview", version.ref = "roundedimageview" }
 ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid" }
@@ -46,5 +39,4 @@ firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
-google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
 
